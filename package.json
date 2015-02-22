@@ -1,9 +1,11 @@
 {
   "name": "test-es6-babel-browserify",
+  "private": true,
   "devDependencies": {
     "babelify": "latest"
   },
   "scripts": {
+    "preinstall": "npm install -g browserify",
     "build": "browserify app/scripts/main.js -t babelify --outfile app/scripts/bundle.js"
   }
 }
