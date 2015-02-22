@@ -47,3 +47,11 @@ Experimental application which test couple of tools:
     ```
 to generate `bundle.js` file.
 8. Last step in to view results in browser! :)
+
+## Setup current project
+
+```
+git clone https://github.com/piecioshka/test-es6-babel-browserify.git
+npm install
+npm run build
+```
