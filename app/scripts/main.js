@@ -1,14 +1,14 @@
 'use strict';
 
-class Game {
+class Application {
     constructor() {
-        console.log('Game#constructor');
+        console.log('Hello world!');
     }
 
     toString() {
-        return '[object Game]'
+        return '[object Application]'
     }
 }
 
-var g = new Game();
+var g = new Application();
 console.debug(g.toString());
