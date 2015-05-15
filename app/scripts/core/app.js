@@ -10,5 +10,4 @@ class Application {
     }
 }
 
-var g = new Application();
-console.debug(g.toString());
+export default Application;
