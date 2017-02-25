@@ -1,5 +1,5 @@
 {
-  "name": "test-es6-babel-browserify",
+  "name": "test-es2015-babel-browserify",
   "private": true,
   "devDependencies": {
     "gulp": "latest",
